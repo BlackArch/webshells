@@ -33,4 +33,3 @@ if (file_exists($uploaded)) {
 </table>
 </body>
 </html>
-

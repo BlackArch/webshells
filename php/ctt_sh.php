@@ -2925,4 +2925,3 @@ $microtime = round(getmicrotime()-$starttime,4);
 
 ?>
 <? // [CT] TEAM SCRIPTING - RODNOC ?>
-

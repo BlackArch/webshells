@@ -1,4 +1,3 @@
-
 <?php
 /*
  * webadmin.php - a simple Web-based file manager

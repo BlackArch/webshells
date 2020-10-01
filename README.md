@@ -8,4 +8,4 @@ On [BlackArch](https://github.com/BlackArch/blackarch) you can install a package
 $ sudo pacman -S webshells
 ```
 
-Then they webshells will be available under `/usr/share/webshells/`.
+Then the webshells will be available under `/usr/share/webshells/`.

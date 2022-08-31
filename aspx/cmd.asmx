@@ -31,7 +31,7 @@ using System.Web.Services;
 using System.Xml;
 using System.Web.Services.Protocols;
 
-[WebService(Namespace = "http://www.payloads.online/")]
+[WebService(Namespace = "")]
 [WebServiceBinding(ConformsTo = WsiProfiles.BasicProfile1_1)]
 
 public class New_Process :Process

